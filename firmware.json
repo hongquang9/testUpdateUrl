@@ -1,30 +1,10 @@
 {
     "version": 0.9,
-    "files": [
-        {
-            "name": "bootloader.bin",
-            "url": "https://raw.githubusercontent.com/minhbka/testUpdateUrl/main/bootloader.bin",
-            "address": 0x0
-        },
-        {
-            "name": "esp32s3_alpha.bin",
-            "url": "https://raw.githubusercontent.com/minhbka/testUpdateUrl/main/esp32s3_alpha.bin",
-            "address": 0x20000
-        },
-        {
-            "name": "partition-table.bin",
-            "url": "https://raw.githubusercontent.com/minhbka/testUpdateUrl/main/partition_table/partition-table.bin",
-            "address": 0x8000
-        },
-        {
-            "name": "ota_data_initial.bin",
-            "url": "https://raw.githubusercontent.com/minhbka/testUpdateUrl/main/ota_data_initial.bin",
-            "address": 0x11000
-        },
-        {
-            "name": "www.bin",
-            "url": "https://raw.githubusercontent.com/minhbka/testUpdateUrl/main/www.bin",
-            "address": 0x621000
-        }
-    ]
+    "files": {
+        "bootloader": "https://raw.githubusercontent.com/hongquang9/testUpdateUrl/main/bootloader.bin",
+        "partition_table": "https://raw.githubusercontent.com/hongquang9/testUpdateUrl/main/partition-table.bin",
+        "application": "https://raw.githubusercontent.com/hongquang9/testUpdateUrl/main/esp32s3_alpha.bin",
+        "ota_data": "https://raw.githubusercontent.com/hongquang9/testUpdateUrl/main/ota_data_initial.bin",
+        "storage": "https://raw.githubusercontent.com/hongquang9/testUpdateUrl/main/www.bin"
+    }
 }
